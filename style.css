@@ -1,0 +1,23 @@
+.baitap{
+    cursor: pointer;
+}
+.nav-tabs .nav-link{
+   
+    border:none; 
+}
+.baitap .nav-item .active{
+    color:#000 !important;
+    background-color: yellow;
+    border:yellow;
+    border-radius: 10px;
+
+}
+.baitap .nav-item{
+    margin:0 20px;
+    color:white ;
+    background-color:#000;
+    border-radius: 10px;
+}
+.baitap .nav-item a{
+    color:#fff !important;
+}

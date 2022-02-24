@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class=" baitap">
+        <ul class="nav nav-tabs justify-content-center" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active"  data-toggle="tab" href="#mangkhoitao" role="tab" aria-controls="home" aria-selected="true">Khởi tạo mảng</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-toggle="tab" href="#cau1" role="tab" aria-controls="profile" aria-selected="false">Câu 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  data-toggle="tab" href="#cau2" role="tab" aria-controls="contact" aria-selected="false">Câu 2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="tab" href="#cau3" role="tab" aria-controls="website" aria-selected="false">Câu 3</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="tab" href="#cau4" role="tab" aria-controls="website" aria-selected="false">Câu 4</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="tab" href="#cau5" role="tab" aria-controls="website" aria-selected="false">Câu 5</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="tab" href="#cau6" role="tab" aria-controls="website" aria-selected="false">Câu 6</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="tab" href="#cau7" role="tab" aria-controls="website" aria-selected="false">Câu 7</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="tab" href="#cau8" role="tab" aria-controls="website" aria-selected="false">Câu 8</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="tab" href="#cau9" role="tab" aria-controls="website" aria-selected="false">Câu 9</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"  data-toggle="tab" href="#cau10" role="tab" aria-controls="website" aria-selected="false">Câu 10</a>
+            </li>
+          </ul>
+          <div class="tab-content container pt-4" >
+            <div class="tab-pane fade show active " id="mangkhoitao" >
+                <h3>
+                  Khởi tạo mảng số Nguyên
+                </h3>
+                <div class="form-group">
+                  <p>Mời bạn nhập các phần tử cho mảng số nguyên :</p>
+                  <input class="form-control w-50"  id="pushindex" />
+              </div>
+              <button class="btn btn-success mb-2" id="btnpush" >Thêm vào mảng</button><br>
+              <button class="btn btn-danger" id="btninner">Kết thúc mảng và xuất mảng (xem mảng)</button>
+              <p class="text-warning">(*) Lưu ý đã có cho trước một số phần tử để test trước.</p>
+              <input class="form-control w-50 h-5" style ="height:100px"  id="input_inner" />
+            </div>
+            <div class="tab-pane fade" id="cau1" >
+              <h3> Bài 1 : Tính tổng các số dương trong mảng</h3>
+              <div class="form-group">
+                <button class="btn btn-danger" id="btnCau1">Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <span id ="spanmang"></span>
+                <p class = "text-success"> Kết quả : <span id ="spanIner"></span></p>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="cau2" >
+              <h3> Bài 2 : Đếm các số dương trong mảng</h3>
+              <div class="form-group">
+                <button class="btn btn-warning" id="btnCau2" >Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <span id ="spanmang2"></span>
+                <p class = "text-success"> Kết quả : <span id ="spanDem"></span> </p>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="cau3" >
+              <h3> Bài 3 : Tìm số nhỏ nhất trong mảng</h3>
+              <div class="form-group">
+                <button class="btn btn-warning" id="btnCau3" >Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <span id ="spanmang3"></span>
+                <p class = "text-success"> Kết quả : <span id ="spanMin"></span> </p>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="cau4" >
+              <h3> Bài 4 : Tìm số dương nhỏ nhất trong mảng</h3>
+              <div class="form-group">
+                <button class="btn btn-warning" id="btnCau4" >Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <span id ="spanmang4"></span>
+                <p class = "text-success"> Kết quả : <span id ="spanMinD"></span> </p>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="cau5" >
+              <h3> Bài 5 : Tìm giá trị chẳn cuối cùng trong mảng . Nếu không có giá trị chẳn thì trả về -1</h3>
+              <div class="form-group">
+                <button class="btn btn-primary" id="btnCau5" >Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <span id ="spanmang5"></span>
+                <p class = "text-success"> Kết quả : <span id ="spanChancuoi"></span> </p>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="cau6" >
+              <h3> Bài 6 : Đổi chổ 2 giá trị trong mảng theo vị trí.</h3>
+              <div class="form-group">
+                <p>Vui lòng nhập nhập vị trí cần thay đổi thứ nhất :</p>
+                <input class="form-control w-50"  id="nuSt" />
+                <span id ='giatrithunhat' class="p-2 text-primary"></span>
+                <p>Vui lòng nhập nhập vị trí cần thay đổi thứ 2 :</p>
+                <input class="form-control w-50"  id="nuNd" />
+                <span id ='giatrithuhai' class="p-2 text-primary"></span><br>
+                <button class="btn btn-warning mt-5" id="btnCau6" >Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <sapn id ="spanmang6"></sapn>
+                <p class = "text-success"> Kết quả mảng sau khi đổi vị trí 2 giá trị: <span id ="spandoivitri"></span> </p>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="cau7" >
+              <h3> Bài 7 : Sắp xếp mảng theo giá trị tăng dần</h3>
+              <div class="form-group">
+                <button class="btn btn-primary" id="btnCau7" >Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <span id ="spanmang7"></span>
+                <p class = "text-success"> Kết quả sắp xếp: <span id ="spansapxep"></span> </p>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="cau8" >
+              <h3> Bài 8 : Tìm số nguyên tố đầu tiên trong mảng nếu không có số nguyên tố trong mảng kết quả trả về là -1</h3>
+              <div class="form-group">
+                <button class="btn btn-info" id="btnCau8" >Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <span id ="spanmang8"></span>
+                <p class = "text-success"> Kết quả : <span id ="spansoNT"></span> </p>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="cau9" >
+              <h3> Bài 9 : Nhập thêm vào mảng các số thực và đếm các số nguyên trong mảng</h3>
+              <div class="form-group">
+                <p class="text-danger">*Vui lòng nhập thêm số thực ở phần : <span style ='font-size: 20px;'> Khởi tạo mảng</span></p>
+                <button class="btn btn-primary" id="btnCau9" >Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <span id ="spanmang9"></span>
+                <p class = "text-success"> Kết quả : <span id ="spanDemSoN"></span> </p>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="cau10" >
+              <h3> Bài 10 : So sánh số lượng số dương và số âm trong mảng </h3>
+              <div class="form-group">
+                <button class="btn btn-success" id="btnCau10" >Xem mảng và kết quả</button>
+                <p class = "text-success"> Mảng đã cho : </p>
+                <span id ="spanmang10"></span>
+                <p class = "text-success"> Kết quả : <span id ="spanSS"></span> </p>
+                
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
